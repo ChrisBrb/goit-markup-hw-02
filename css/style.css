@@ -122,11 +122,23 @@ ul {
     line-height: 1.17;
     text-align: center;
 }
-.clients .clients-link:hover,
-.clients .clients-link:focus {
-    color: var(--accent-text-color);
-}
+
 /* futer */
+.footer {
+    background: #2F303A;
+}
+
+.footer .contacts-list {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+.footer-text {
+    color: var(--primary-white-color);
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+}
 
 /* button */
 .button {
