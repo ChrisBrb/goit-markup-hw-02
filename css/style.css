@@ -53,7 +53,8 @@ ul {
     text-decoration: none;
 }
 
-.contacts .contacts-list:hover {
+.contacts .contacts-list:hover,
+.contacts .contacts-list:focus {
     color: var(--accent-text-color);
 }
 /* hero */
