@@ -132,6 +132,8 @@ ul {
 .footer .contacts-list {
     color: var(--primary-text-color);
     text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
 }
 
 .footer-text {
@@ -161,14 +163,23 @@ line-height: 1.14;
     color: var(--primary-white-color);
 }
 
-.portfolio-title {
+.sitelist {
+    text-decoration: none;
+}
+
+.sitelist .title {
     color: var(--title-text-color);
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
 }
 
-.section-text {
+.sitelist .text {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+.sitelist .preview {
 color: var(--primary-text-color);
 font-size: 16px;
 line-height: 1,87;
